@@ -1,0 +1,223 @@
+[
+    {
+      "name": "Продукт 1",
+      "qty": 10,
+      "price": 20.99,
+      "discount": 5,
+      "img": "product1.jpg",
+      "descr": "Описание продукта 1",
+      "vendor_code": "ABC123",
+      "colors": ["Красный", "Синий", "Зеленый"],
+      "category": "Одежда"
+    },
+    {
+      "name": "Продукт 2",
+      "qty": 5,
+      "price": 15.49,
+      "discount": 3,
+      "img": "product2.jpg",
+      "descr": "Описание продукта 2",
+      "vendor_code": "DEF456",
+      "colors": ["Черный", "Белый", "Серый"],
+      "category": "Электроника"
+    },
+    {
+      "name": "Продукт 3",
+      "qty": 8,
+      "price": 100,
+      "discount": 0,
+      "img": "product3.jpg",
+      "descr": "Описание продукта 3",
+      "vendor_code": "GHI789",
+      "colors": ["Желтый", "Оранжевый", "Фиолетовый"],
+      "category": "Дом и кухня"
+    },
+    {
+      "name": "Продукт 4",
+      "qty": 12,
+      "price": 18.25,
+      "discount": 8,
+      "img": "product4.jpg",
+      "descr": "Описание продукта 4",
+      "vendor_code": "JKL101",
+      "colors": ["Коричневый", "Бежевый", "Рыжий"],
+      "category": "Мебель"
+    },
+    {
+      "name": "Продукт 5",
+      "qty": 15,
+      "price": 24.99,
+      "discount": 0,
+      "img": "product5.jpg",
+      "descr": "Описание продукта 5",
+      "vendor_code": "MNO202",
+      "colors": ["Серебряный", "Золотой", "Медный", "Черный"],
+      "category": "Ювелирные изделия"
+    },
+    {
+      "name": "Продукт 6",
+      "qty": 20,
+      "price": 9.99,
+      "discount": 10,
+      "img": "product6.jpg",
+      "descr": "Описание продукта 6",
+      "vendor_code": "PQR303",
+      "colors": ["Розовый", "Пурпурный", "Лавандовый", "Серебряный", "Черный"],
+      "category": "Красота"
+    },
+    {
+      "name": "Продукт 7",
+      "qty": 7,
+      "price": 30.50,
+      "discount": 0,
+      "img": "product7.jpg",
+      "descr": "Описание продукта 7",
+      "vendor_code": "STU404",
+      "colors": ["Бирюзовый", "Туркоаз", "Аквамарин"],
+      "category": "Спорт и отдых"
+    },
+    {
+      "name": "Продукт 8",
+      "qty": 3,
+      "price": 22.75,
+      "discount": 15,
+      "img": "product8.jpg",
+      "descr": "Описание продукта 8",
+      "vendor_code": "VWX505",
+      "colors": ["Темно-синий", "Голубой", "Индиго", "Серый"],
+      "category": "Аксессуары"
+    },
+    {
+      "name": "Продукт 9",
+      "qty": 18,
+      "price": 14.99,
+      "discount": 0,
+      "img": "product9.jpg",
+      "descr": "Описание продукта 9",
+      "vendor_code": "YZA606",
+      "colors": ["Бордовый", "Оливковый", "Хаки", "Золотой"],
+      "category": "Инструменты и оборудование"
+    },
+    {
+      "name": "Продукт 10",
+      "qty": 6,
+      "price": 19.49,
+      "discount": 0,
+      "img": "product10.jpg",
+      "descr": "Описание продукта 10",
+      "vendor_code": "BCD707",
+      "colors": ["Багровый", "Рубиновый", "Алый"],
+      "category": "Автомобили"
+    },
+    {
+      "name": "Продукт 11",
+      "qty": 9,
+      "price": 27.99,
+      "discount": 5,
+      "img": "product11.jpg",
+      "descr": "Описание продукта 11",
+      "vendor_code": "EFG808",
+      "colors": ["Изумрудный", "Лесной зеленый", "Лаймовый"],
+      "category": "Книги и медиа"
+    },
+    {
+      "name": "Продукт 12",
+      "qty": 13,
+      "price": 11.25,
+      "discount": 0,
+      "img": "product12.jpg",
+      "descr": "Описание продукта 12",
+      "vendor_code": "HIJ909",
+      "colors": ["Горчичный", "Шартрез", "Охра"],
+      "category": "Игрушки и игры"
+    },
+    {
+      "name": "Продукт 13",
+      "qty": 11,
+      "price": 16.75,
+      "discount": 0,
+      "img": "product13.jpg",
+      "descr": "Описание продукта 13",
+      "vendor_code": "KLM010",
+      "colors": ["Янтарный", "Коралловый", "Персиковый"],
+      "category": "Здоровье и благополучие"
+    },
+    {
+      "name": "Продукт 14",
+      "qty": 17,
+      "price": 23.99,
+      "discount": 0,
+      "img": "product14.jpg",
+      "descr": "Описание продукта 14",
+      "vendor_code": "NOP111",
+      "colors": ["Сливовый", "Фиолетовый", "Сиреневый"],
+      "category": "Музыка и инструменты"
+    },
+    {
+      "name": "Продукт 15",
+      "qty": 4,
+      "price": 8.49,
+      "discount": 0,
+      "img": "product15.jpg",
+      "descr": "Описание продукта 15",
+      "vendor_code": "QRS212",
+      "colors": ["Сапфировый", "Перидот", "Лазурный"],
+      "category": "Электротехника"
+    },
+    {
+      "name": "Продукт 16",
+      "qty": 14,
+      "price": 10.99,
+      "discount": 7,
+      "img": "product16.jpg",
+      "descr": "Описание продукта 16",
+      "vendor_code": "TUV313",
+      "colors": ["Шампанское", "Слоновая кость", "Кремовый"],
+      "category": "Бытовая техника"
+    },
+    {
+      "name": "Продукт 17",
+      "qty": 16,
+      "price": 28.75,
+      "discount": 0,
+      "img": "product17.jpg",
+      "descr": "Описание продукта 17",
+      "vendor_code": "VWX414",
+      "colors": ["Голубой", "Стальной", "Васильковый"],
+      "category": "Канцелярия"
+    },
+    {
+      "name": "Продукт 18",
+      "qty": 2,
+      "price": 17.49,
+      "discount": 0,
+      "img": "product18.jpg",
+      "descr": "Описание продукта 18",
+      "vendor_code": "YZA515",
+      "colors": ["Бирюзовый", "Аква", "Синевато-голубой"],
+      "category": "Канцелярия"
+    },
+    {
+      "name": "Продукт 19",
+      "qty": 19,
+      "price": 21.99,
+      "discount": 0,
+      "img": "product19.jpg",
+      "descr": "Описание продукта 19",
+      "vendor_code": "BCD616",
+      "colors": ["Бронзовый", "Латунный", "Медный"],
+      "category": "Искусство и ремесла"
+    },
+    {
+      "name": "Продукт 20",
+      "qty": 1,
+      "price": 33.25,
+      "discount": 0,
+      "img": "product20.jpg",
+      "descr": "Описание продукта 20",
+      "vendor_code": "EFG717",
+      "colors": ["Жемчуг", "Опал", "Лунный камень"],
+      "category": "Мода"
+    }
+  ]
+  

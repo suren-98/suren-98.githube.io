@@ -1,0 +1,97 @@
+.filter_range_field {
+    position: relative;
+    input[type=range] {
+        position: absolute;
+        z-index: 2;
+        height: 18px;
+        width: 100%;
+        pointer-events: none;
+        opacity: 0;
+        &::-webkit-slider-thumb {
+            pointer-events: all;
+            width: 30px;
+            height: 30px;
+            border-radius: 5px;
+            border: none;
+            -webkit-appearance: none;
+        }
+    
+    }
+    .slider {
+        position: relative;
+        z-index: 1;
+        height: 10px;
+        .track {
+            position: absolute;
+            z-index: 1;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            border-radius: 5px;
+            background: orange;
+        }
+    }
+
+    .range {
+        position: absolute;
+
+        z-index: 2;
+        left: 25%;
+        right: 25%;
+        top: 0;
+        bottom: 0;
+        border-radius: 5px;
+        background: orange;
+    }
+
+    .thumb {
+        position: absolute;
+        z-index: 3;
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        background: #f1f1f1;
+        border: 5px solid #e3e3e3;
+        &.left {
+            left: 25%;
+            transform: translate(-15px, -10px);
+        }
+        &.right {
+            right: 25%;
+            transform: translate(15px, -10px);
+        }
+    }
+
+}
+
+
+
+input[type="range"] {
+    appearance: none; 
+    &::-webkit-slider-thumb {
+      appearance: none;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%; 
+      background-color: red; 
+      cursor: pointer; 
+    }
+  
+    &::-moz-range-thumb {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: red;
+      cursor: pointer;
+    }
+  
+    &::-ms-thumb {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: red;
+      cursor: pointer;
+    }
+  }
+  
